@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "event-organizer",
+    "slug": "event-organizer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hamzasharif.eventorganizer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b76f9891-ead4-4601-9a33-7c9549b58b2f"
+      }
+    }
+  }
+}
